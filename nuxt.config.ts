@@ -8,5 +8,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image'
-  ]
+  ],
+
+  icon: {
+    customCollections: [
+      {
+        prefix: 'my-icon',
+        dir: './assets/icons'
+      },
+    ],
+  },
 })
