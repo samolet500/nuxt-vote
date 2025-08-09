@@ -4,6 +4,8 @@ import "./assets/styles/main.css";
 
 <template>
   <div>
-    <NuxtPage />
+    <NuxtLayout>
+      <nuxt-page />
+    </NuxtLayout>
   </div>
 </template>
